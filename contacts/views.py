@@ -12,3 +12,7 @@ class ContactDetail(DetailView):
 
 class ContactCreate(CreateView):
     model = Contact
+
+
+class ContactUpdate(UpdateView):
+    model = Contact
