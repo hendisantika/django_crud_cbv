@@ -16,3 +16,7 @@ class ContactCreate(CreateView):
 
 class ContactUpdate(UpdateView):
     model = Contact
+
+
+class ContactDelete(DeleteView):
+    model = Contact
