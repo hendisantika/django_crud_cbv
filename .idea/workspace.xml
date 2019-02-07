@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a917c9ab-d235-4544-9faf-3397c773d8bd" name="Default Changelist" comment="" />
+    <list default="true" id="a917c9ab-d235-4544-9faf-3397c773d8bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/contacts/templates/contacts/contact_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,16 +48,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contacts/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="315">
+              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/contacts/templates/contacts/contact_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,6 +86,7 @@
         <option value="$PROJECT_DIR$/contacts/models.py" />
         <option value="$PROJECT_DIR$/contacts/admin.py" />
         <option value="$PROJECT_DIR$/contacts/views.py" />
+        <option value="$PROJECT_DIR$/contacts/templates/contacts/contact_list.html" />
       </list>
     </option>
   </component>
@@ -96,6 +116,12 @@
             <path>
               <item name="django_crud_cbv" type="b2602c69:ProjectViewProjectNode" />
               <item name="django_crud_cbv" type="462c0819:PsiDirectoryNode" />
+              <item name="contacts" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_crud_cbv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_crud_cbv" type="462c0819:PsiDirectoryNode" />
               <item name="django_crud_cbv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -105,6 +131,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -157,7 +184,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549580563803</updated>
-      <workItem from="1549580564984" duration="841000" />
+      <workItem from="1549580564984" duration="1038000" />
     </task>
     <task id="LOCAL-00001" summary="#1 - Initial Commit">
       <created>1549580619504</created>
@@ -222,11 +249,46 @@
       <option name="project" value="LOCAL" />
       <updated>1549582488025</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="#10 - Add Contact List views">
+      <created>1549582550141</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1549582550141</updated>
+    </task>
+    <task id="LOCAL-00011" summary="#11 - Add Contact Details views">
+      <created>1549582595783</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1549582595783</updated>
+    </task>
+    <task id="LOCAL-00012" summary="#12 - Add Contact Create views">
+      <created>1549582616032</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1549582616032</updated>
+    </task>
+    <task id="LOCAL-00013" summary="#13 - Add Contact Update views">
+      <created>1549582634256</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1549582634256</updated>
+    </task>
+    <task id="LOCAL-00014" summary="#14 - Add Contact Delete views">
+      <created>1549582652074</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1549582652074</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="841000" />
+    <option name="totallyTimeSpent" value="1038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -273,7 +335,12 @@
     <MESSAGE value="#7 - Enabling the Admin Interface" />
     <MESSAGE value="#8 - Creating the CRUD Views" />
     <MESSAGE value="#9 - Modify views" />
-    <option name="LAST_COMMIT_MESSAGE" value="#9 - Modify views" />
+    <MESSAGE value="#10 - Add Contact List views" />
+    <MESSAGE value="#11 - Add Contact Details views" />
+    <MESSAGE value="#12 - Add Contact Create views" />
+    <MESSAGE value="#13 - Add Contact Update views" />
+    <MESSAGE value="#14 - Add Contact Delete views" />
+    <option name="LAST_COMMIT_MESSAGE" value="#14 - Add Contact Delete views" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -315,8 +382,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contacts/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="315">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacts/templates/contacts/contact_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
