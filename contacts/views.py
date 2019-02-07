@@ -4,3 +4,7 @@ from .models import Contact
 
 class ContactList(ListView):
     model = Contact
+
+
+class ContactDetail(DetailView):
+    model = Contact
