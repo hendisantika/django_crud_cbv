@@ -8,3 +8,7 @@ class ContactList(ListView):
 
 class ContactDetail(DetailView):
     model = Contact
+
+
+class ContactCreate(CreateView):
+    model = Contact
